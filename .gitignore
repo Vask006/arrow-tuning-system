@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+venv/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Flutter/Dart
+.dart_tool/
+build/
+*.g.dart
+*.freezed.dart
+
+# Environment & Secrets
+.env
+.env.local
+*.pem
+*.key
+secrets/
+
+# Database
+*.db
+*.sqlite3
+
+# ML Models & Data
+*.pth
+*.pt
+*.onnx
+*.pkl
+ml-models/weights/*.pt
+!ml-models/weights/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
